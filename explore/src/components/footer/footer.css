@@ -1,0 +1,37 @@
+.footer {
+    background: #9f85ff;
+    padding: 10px 0px 30px 0px;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.footer a {
+    color: #ffffff;
+}
+
+.footer-logo {
+    display: inline-block;
+    width: 250px;
+    height: 120px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.navlinks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 100px;
+    margin: 0 auto 50px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.footer-copyright {
+    text-align: center;
+    font-weight:600;
+    color: #ffffff;
+}

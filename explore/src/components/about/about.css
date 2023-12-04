@@ -1,0 +1,21 @@
+.imgs {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+  .imgs img {
+    width: 450px;
+    height: 250px;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  .imgs img:hover {
+    transform: scale(1.2);
+  }
+
+  p{
+    text-align: center;
+    padding-top: 20px;
+  }

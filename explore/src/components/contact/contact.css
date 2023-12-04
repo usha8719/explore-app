@@ -1,0 +1,65 @@
+.contact-page {
+    background-repeat: no-repeat;
+    color: #000000fa;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    text-align: center;
+  }
+  
+  .contact-page h1 {
+    font-size: 35px;
+    text-align: center;
+    color: #9f85ff;
+  }
+  
+  .contact-page p {
+    font-size: 16px;
+    line-height: 2.5;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  
+  .label-text {
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 1px;
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+    outline: none;
+    padding: 0.5rem 1rem;
+  }
+  
+  .label-radio {
+    font-weight: bold;
+    font-size: 16px;
+    width: 250px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0.5rem 1rem;
+  }
+  
+  .contact-page input[type="text"] {
+    width: 200px;
+    outline: none;
+    padding: 0.5rem 1rem;
+    border-color: 1px #9f85ff;
+
+  }
+
+  button{
+    width: 200px;
+    height: 40px;
+    background-color: #9f85ff;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  button:hover{
+    background-color: #e378a8;
+    color: white;
+    cursor: pointer;
+    
+  }
+  
