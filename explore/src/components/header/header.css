@@ -1,0 +1,24 @@
+header {
+    height: 50vh;
+    padding-top: 250px;
+    overflow: hidden;
+}
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+.header__container h1 {
+    padding-bottom: 20px;
+    color: #9f85ff;
+}
+
+.head {
+    width: 720px;
+    height: 480px;
+    position: absolute;
+    margin-left: 210px;
+    margin-top: 50px;
+}
