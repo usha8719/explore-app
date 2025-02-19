@@ -38,7 +38,8 @@ app.post('/contact', async (req, res) => {
     res.json({ success: true, message: 'Form submitted successfully!' });
   } catch (error) {
     console.error('Error saving contact form data:', error);
-    res.json({ success: false, message: 'Error submitting form. Please try again.' });
+    //updating the message
+    res.json({ success: false, message: 'Error submitting form! Please try again.' });
   }
 });
 
